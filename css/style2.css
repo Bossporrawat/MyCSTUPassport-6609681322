@@ -97,4 +97,9 @@ pre{
 }
 h1{
     font-size: 45px;
+    text-align: center;
+}
+h2{
+  font-size: 45px;
+  text-align: left;
 }
