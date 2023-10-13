@@ -54,16 +54,41 @@ pre{
     display: flex;
 }
 .div1{
-    margin: 200px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
     display: flex;
+    text-align: center;
 }
 .div2{
     margin: 200px;
-    flex: 50%;
     float: left;
+    flex: 50%;
 }
 .div3{
     margin: 200px;
-    flex: 50%;
     float: right;
+    text-align: center;
+    flex: 50%;
+}
+.div4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+img{
+  width: 1600px;
+  height: 900px;
+}
+h1{
+  font-size: 105px;
+  color: #c5310d;
+}
+h2{
+  font-size: 95px;
+}
+p{
+  font-size: 85px;
 }

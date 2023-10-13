@@ -55,23 +55,28 @@ pre{
     float: left;
     margin: auto;
     border-radius: 15%;
+    text-align: center;
 }
 .div1{
     margin: 200px;
     display: flex;
+    text-align: center;
 }
 .div2{
     float: left;
     margin: auto;
+    flex: 50%;
 }
 .div3{
     float: right;
     margin: auto;
+    flex: 50%;
 }
 .div4{
     width: auto;
     text-align: left;
     font-size: 50px;
+    flex: 50%;
 }
 .div5{
     width: fit-content;
@@ -80,11 +85,13 @@ pre{
     margin-left: 100px;
     text-align: right;
     float: right;
+    flex: 50%;
 }
 .div6{
   width: auto;
     text-align: left;
     font-size: 80px;
+    flex: 50%;
 }
 .img2{
   margin: auto;
