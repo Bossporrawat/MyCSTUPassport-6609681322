@@ -1,54 +1,52 @@
 html{
-    width: auto;
-    margin: 100px;
-    text-align: center;
-    background-color: #e5ebd7;
+  width: 1450px;
+  margin: 20px;
+  text-align: center;
+  background-color: #e5ebd7;
 }
-.ul1 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    display: flex;
-  }
-  .ul2{
-    font-size: 35px;
-  }
-  
-  .li1 {
-    float: left;
-    margin: 20px;
-  }
-  
-  li a {
-    font-size: 80px;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #4CAF50;
-  }
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  size: fit ;
+}
+
+.li1 {
+  float: left;
+  margin: 20px;
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 0;
+}
+
+li a {
+  font-size: 30px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.active {
+  border-radius: 12px;
+  background-color: #4bdbff;
+}
 header{
-    display: flex;
-    text-align: center;
-    font-size: 120px;
-    margin-left: auto; 
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    /*margin-bottom: 200px;*/
+  display: flex;
+  text-align: center;
+  font-size: 60px;
+  margin-left: 25%; 
+  margin-right: 25%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  /*margin-bottom: 200px;*/
 }
 pre{
     display: flex;
