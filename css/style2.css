@@ -1,53 +1,54 @@
 html{
-    width: auto;
-    margin: 100px;
-    text-align: center;
-    background-color: #e5ebd7;
+  width: 1450px;
+  margin: 20px;
+  text-align: center;
+  background-color: #e5ebd7;
 }
 .ul1 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    display: flex;
-  }
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  size: fit ;
+}
   .ul2{
-    font-size: 35px;
+    font-size: 20px;
   }
   
   .li1 {
     float: left;
     margin: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 0;
   }
   
   li a {
-    font-size: 80px;
+    font-size: 30px;
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    border-radius: 12px;
+    background-color: #ffffff;
   }
   
   .active {
-    background-color: #4CAF50;
+    border-radius: 12px;
+    background-color: #4bdbff;
   }
-header{
+  header{
     display: flex;
     text-align: center;
-    font-size: 120px;
-    margin-left: auto; 
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    font-size: 60px;
+    margin-left: 25%; 
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 50px;
     /*margin-bottom: 200px;*/
 }
 pre{
@@ -76,7 +77,7 @@ pre{
 .div4{
     width: auto;
     text-align: left;
-    font-size: 50px;
+    font-size: 20px;
 }
 .div5{
     width: fit-content;
@@ -89,7 +90,7 @@ pre{
 .div6{
   width: auto;
     text-align: left;
-    font-size: 80px;
+    font-size: 20px;
 }
 .div7{
     margin-left: 200px;
@@ -99,14 +100,14 @@ pre{
     display: flex;
 }
 h1{
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
 }
 h2{
-  font-size: 45px;
+  font-size: 30px;
   text-align: left;
 }
 h3{
-  font-size: 35px;
+  font-size: 30px;
   text-align: left;
 }

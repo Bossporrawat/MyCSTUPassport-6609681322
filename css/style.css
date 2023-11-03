@@ -7,7 +7,6 @@ html{
 ul {
     list-style-type: none;
     overflow: hidden;
-    position: sticky;
     display: flex;
     size: fit ;
   }
