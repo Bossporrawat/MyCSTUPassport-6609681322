@@ -31,10 +31,12 @@ ul {
   }
   
   li a:hover {
+    border-radius: 12px;
     background-color: #ffffff;
   }
   
   .active {
+    border-radius: 12px;
     background-color: #4bdbff;
   }
 header{
