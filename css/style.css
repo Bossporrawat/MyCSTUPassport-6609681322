@@ -1,5 +1,120 @@
-html{
-    width: 1450px;
+   html{
+      width: 1450px;
+      margin: 20px;
+      text-align: center;
+      background-color: #e5ebd7;
+  }
+  ul {
+      list-style-type: none;
+      overflow: hidden;
+      display: flex;
+      size: fit ;
+    }
+    
+    .li1 {
+      float: left;
+      margin: 20px;
+      font-weight: bold;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 12px;
+      padding: 0;
+    }
+    
+    li a {
+      font-size: 30px;
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+    
+    .active {
+      border-radius: 12px;
+      background-color: #4bdbff;
+    }
+  header{
+      display: flex;
+      text-align: center;
+      font-size: 60px;
+      margin-left: 25%; 
+      margin-right: 25%;
+      margin-top: 25px;
+      margin-bottom: 50px;
+      /*margin-bottom: 200px;*/
+  }
+  pre{
+      display: flex;
+  }
+  .img1{
+      display: flex;
+      float: left;
+      margin: auto;
+      border-radius: 15%;
+      text-align: center;
+      width: 250px;
+      height: 350px;
+  }
+  .div1{
+      margin: 200px;
+      display: flex;
+      text-align: center;
+  }
+  .div2{
+      float: left;
+      margin: auto;
+      flex: 50%;
+  }
+  .div3{
+      float: right;
+      margin: auto;
+      flex: 50%;
+  }
+  .div4{
+      width: auto;
+      text-align: left;
+      font-size: 20px;
+      flex: 50%;
+  }
+  .div5{
+      width: fit-content;
+      height: fit-content;
+      margin: auto;
+      margin-left: 100px;
+      text-align: right;
+      float: right;
+      flex: 50%;
+  }
+  .div6{
+    width: auto;
+      text-align: left;
+      font-size: 80px;
+      flex: 50%;
+  }
+  .div7{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+  }
+  .img2{
+    margin: auto;
+    text-align: center;
+  }
+  .f{
+    font-size: 20px;
+  }
+  .v{
+    width: auto;
+    height: auto;
+  }
+@media only screen and (max-width: 700px){
+  html{
+    width: 700px;
     margin: 20px;
     text-align: center;
     background-color: #e5ebd7;
@@ -112,15 +227,120 @@ pre{
   width: auto;
   height: auto;
 }
-@media only screen and (max-width: 1000px){
-  
 }
 @media only screen and (max-width: 760px) {
-  /* For mobile phones: */
-  .div2 {
-    flex: 100%;
+  html{
+    width: 760px;
+    margin: 20px;
+    text-align: center;
+    background-color: #e5ebd7;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    size: fit ;
   }
-  .div3 {
-    flex: 100%;
+  
+  .li1 {
+    float: left;
+    margin: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 0;
   }
+  
+  li a {
+    font-size: 30px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    border-radius: 12px;
+    background-color: #ffffff;
+  }
+  
+  .active {
+    border-radius: 12px;
+    background-color: #4bdbff;
+  }
+header{
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 25%; 
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    /*margin-bottom: 200px;*/
+}
+pre{
+    display: flex;
+}
+.img1{
+    display: flex;
+    float: left;
+    margin: auto;
+    border-radius: 15%;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+}
+.div1{
+    margin: 200px;
+    display: flex;
+    text-align: center;
+}
+.div2{
+    float: left;
+    margin: auto;
+    flex: 50%;
+}
+.div3{
+    float: right;
+    margin: auto;
+    flex: 50%;
+}
+.div4{
+    width: auto;
+    text-align: left;
+    font-size: 20px;
+    flex: 50%;
+}
+.div5{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-left: 100px;
+    text-align: right;
+    float: right;
+    flex: 50%;
+}
+.div6{
+  width: auto;
+    text-align: left;
+    font-size: 80px;
+    flex: 50%;
+}
+.div7{
+  margin: 20px;
+  display: flex;
+  text-align: center;
+}
+.img2{
+  margin: auto;
+  text-align: center;
+}
+.f{
+  font-size: 20px;
+}
+.v{
+  width: auto;
+  height: auto;
+}
 }
