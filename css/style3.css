@@ -166,4 +166,15 @@ p{
   .f{
     font-size: 4px;
   }
+  .div1{
+    flex-direction: column;
+  }
+  .div2{
+    width: 100%;
+    text-align: center;
+  }
+  .div3{
+      width: 100%;
+      text-align: center;
+  }
 }
