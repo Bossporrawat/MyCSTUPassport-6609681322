@@ -115,6 +115,7 @@
   @media screen and (max-width: 1000px) and (min-width: 500px) {
   html{
     width: 1000px;
+    margin: 10px;
     }
     ul {
       list-style-type: none;
@@ -229,23 +230,113 @@
   html{
     width: 500px;
     margin: 5px;
-    text-align: center;
-    background-color: #e5ebd7;
   }
-  .div1{
-    margin: 50px;
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    size: fit ;
+  }
+  
+  .li1 {
+    float: left;
+    margin: 2px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 0;
+  }
+  
+  li a {
+    font-size: 2px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px 4px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  
+  .active {
+    border-radius: 4px;
+    background-color: #4bdbff;
+  }
+header{
     display: flex;
     text-align: center;
-    position: static;
-  }
-  .div2{
-    position: static;
+    font-size: 20px;
+    margin-left: 25%; 
+    margin-right: 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /*margin-bottom: 200px;*/
+}
+pre{
+    display: flex;
+}
+.img1{
+    display: flex;
+    float: left;
     margin: auto;
-    flex: 100%;
-  }
-  .div3{
-    position: static;
+    border-radius: 15%;
+    text-align: center;
+    width: 100px;
+    height: 200px;
+}
+.div1{
+    margin: 100px;
+    display: flex;
+    text-align: center;
+}
+.div2{
+    float: left;
     margin: auto;
-    flex: 100%;
-  }
+    flex: 50%;
+}
+.div3{
+    float: right;
+    margin: auto;
+    flex: 50%;
+}
+.div4{
+    width: auto;
+    text-align: left;
+    font-size: 2px;
+    flex: 50%;
+}
+.div5{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-left: 20px;
+    text-align: right;
+    float: right;
+    flex: 50%;
+}
+.div6{
+  width: auto;
+    text-align: left;
+    font-size: 2px;
+    flex: 50%;
+}
+.div7{
+  margin: 20px;
+  display: flex;
+  text-align: center;
+}
+.img2{
+  margin: auto;
+  text-align: center;
+}
+.f{
+  font-size: 2px;
+}
+.v{
+  width: auto;
+  height: auto;
+}
 }
