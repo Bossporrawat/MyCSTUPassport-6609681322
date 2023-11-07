@@ -1,5 +1,5 @@
 html{
-  width: 1450px;
+  width: 100%;
   margin: 20px;
   text-align: center;
   background-color: #e5ebd7;
@@ -65,6 +65,7 @@ pre{
     margin-top:  100px;
     margin-bottom: 200px;
     display: flex;
+    width: 100%;
 }
 .div2{
     float: left;
@@ -88,15 +89,15 @@ pre{
     float: right;
 }
 .div6{
-  width: auto;
+  width: 100%;
     text-align: left;
     font-size: 20px;
 }
 .div7{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top:  200px;
-    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:  15%;
+    margin-bottom: 5%;
     display: flex;
 }
 h1{
@@ -110,4 +111,92 @@ h2{
 h3{
   font-size: 30px;
   text-align: left;
+}
+a{
+  font-size: 35px;
+}
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+  .ul2{
+    font-size: 10px;
+  }
+  li a {
+    font-size: 20px;
+    padding: 10px 12px;
+  }
+  header{
+    font-size: 40px;
+  }
+  .div4{
+    font-size: 10px;
+  }
+  .div6{
+    font-size: 10px;
+  }
+  h1,h2,h3{
+    font-size: 20px;
+  }
+  a{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px)and (min-width: 300px){
+  .ul1 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* เปลี่ยนจากแนวนอนเป็นแนวตั้ง */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  }
+  
+  .li1 {
+    margin: 10px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%; /* กำหนดความกว้างเต็มของเมนูแนวตั้ง */
+  }
+  
+  li a {
+    font-size: 4px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+  }
+  
+  .active {
+    background-color: #4bdbff;
+  }
+  
+  .ul2{
+    font-size: 2px;
+  }
+  header{
+    font-size: 8px;
+  }
+  .div4{
+    font-size: 2px;
+  }
+  .div6{
+    font-size: 2px;
+  }
+  h1,h2,h3{
+    font-size: 4px;
+  }
+  a{
+    font-size: 5px;
+  }
+  .div1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:  10px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
 }

@@ -1,5 +1,5 @@
    html{
-      width: 1450px;
+      width: 100%;
       margin: 20px;
       text-align: center;
       background-color: #e5ebd7;
@@ -46,7 +46,6 @@
       margin-right: 25%;
       margin-top: 25px;
       margin-bottom: 50px;
-      /*margin-bottom: 200px;*/
   }
   pre{
       display: flex;
@@ -109,14 +108,10 @@
     font-size: 20px;
   }
   .v{
-    width: auto;
+    width: 50%;
     height: auto;
   }
   @media screen and (max-width: 1000px) and (min-width: 500px) {
-  html{
-    width: 1000px;
-    margin: 10px;
-    }
     ul {
       list-style-type: none;
       overflow: hidden;
@@ -222,121 +217,86 @@
     font-size: 15px;
   }
   .v{
-    width: auto;
+    width: 50%;
     height: auto;
   }
 }
 @media screen and (max-width: 500px){
-  html{
-    width: 500px;
-    margin: 5px;
-  }
-  ul {
+  .ul1 {
     list-style-type: none;
-    overflow: hidden;
     display: flex;
-    size: fit ;
+    flex-direction: column; /* เปลี่ยนจากแนวนอนเป็นแนวตั้ง */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
   }
   
   .li1 {
-    float: left;
-    margin: 2px;
+    margin: 10px;
     font-weight: bold;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 12px;
-    padding: 0;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%; /* กำหนดความกว้างเต็มของเมนูแนวตั้ง */
   }
   
   li a {
-    font-size: 2px;
+    font-size: 4px;
     display: block;
     color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 2px 4px;
     text-decoration: none;
+    text-align: center;
   }
   
   li a:hover {
-    border-radius: 4px;
     background-color: #ffffff;
   }
   
   .active {
-    border-radius: 4px;
     background-color: #4bdbff;
   }
-header{
+  
+  header{
+    font-size: 8px;
+  }
+
+  .img1{
     display: flex;
-    text-align: center;
-    font-size: 20px;
-    margin-left: 25%; 
-    margin-right: 25%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    /*margin-bottom: 200px;*/
-}
-pre{
-    display: flex;
-}
-.img1{
-    display: flex;
-    float: left;
+    float: none;
     margin: auto;
     border-radius: 15%;
     text-align: center;
-    width: 100px;
-    height: 200px;
-}
-.div1{
-    margin: 100px;
-    display: flex;
+    width: 20%;
+    height: 30%;
+  }
+  .div1{
+      margin: 30px;
+      flex-direction: column;
+  }
+  .div2{
+      width: 100%;
+      text-align: center;
+  }
+  .div3{
+      width: 100%;
+      text-align: center;
+  }
+  .div4{
+      font-size: 3px;
+      width: 100%;
+      text-align: center;
+  }
+  .div5{
+      width: 100%;
+      margin-left: 16px;
+  }
+  .div6{
     text-align: center;
-}
-.div2{
-    float: left;
-    margin: auto;
-    flex: 50%;
-}
-.div3{
-    float: right;
-    margin: auto;
-    flex: 50%;
-}
-.div4{
-    width: auto;
-    text-align: left;
-    font-size: 2px;
-    flex: 50%;
-}
-.div5{
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    margin-left: 20px;
-    text-align: right;
-    float: right;
-    flex: 50%;
-}
-.div6{
-  width: auto;
-    text-align: left;
-    font-size: 2px;
-    flex: 50%;
-}
-.div7{
-  margin: 20px;
-  display: flex;
-  text-align: center;
-}
-.img2{
-  margin: auto;
-  text-align: center;
-}
-.f{
-  font-size: 2px;
-}
-.v{
-  width: auto;
-  height: auto;
-}
+  }
+  .f{
+    font-size: 3px;
+  }
+  .v{
+    width: 100%;
+    height: auto;
+  }
 }
